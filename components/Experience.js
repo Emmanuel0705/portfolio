@@ -96,7 +96,7 @@ const pagination = {
 const Experience = ({ experienceRef, color }) => {
     return (
         <section
-            className="w-full my-10 md:p-10 p-4 overflow-hidden"
+            className="w-full md:p-10 p-4 overflow-hidden"
             ref={experienceRef}
         >
             <h2

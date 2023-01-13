@@ -64,13 +64,10 @@ const skills = [
 
 const About = ({ aboutRef, contactRef, color }) => {
     return (
-        <section
-            className="w-full my-10 md:p-10 p-4 overflow-hidden"
-            ref={aboutRef}
-        >
+        <section className="w-full md:p-10 p-4 overflow-hidden" ref={aboutRef}>
             <div className="flex flex-col w-full">
                 <h2
-                    className={`text-gray-700 dark:text-white align-middle text-4xl font-bold mb-12`}
+                    className={`text-white align-middle text-4xl font-bold mb-12`}
                 >
                     Skills
                 </h2>
@@ -169,13 +166,11 @@ const About = ({ aboutRef, contactRef, color }) => {
                 </div> */}
                 <div className="flex flex-col relative mt-4 space-y-4">
                     <h2
-                        className={`absolute text-gray-900 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90 sm:rotate-0   text-8xl font-bold opacity-10`}
+                        className={`absolute text-gray-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90 sm:rotate-0   text-8xl font-bold opacity-10`}
                     >
                         SKILLS
                     </h2>{" "}
-                    <h2
-                        className={`text-gray-800 font-bold text-xl dark:text-gray-200`}
-                    >
+                    <h2 className={`text-white font-bold text-xl`}>
                         Soft SKills
                     </h2>
                     <div className="flex flex-wrap gap-2">
@@ -188,9 +183,7 @@ const About = ({ aboutRef, contactRef, color }) => {
                             </p>
                         ))}
                     </div>
-                    <h2
-                        className={`text-gray-800 font-bold text-xl dark:text-gray-200`}
-                    >
+                    <h2 className={`text-white font-bold text-xl `}>
                         Hard SKills
                     </h2>
                     <div className="flex flex-wrap gap-2">

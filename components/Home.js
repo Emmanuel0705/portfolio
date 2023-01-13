@@ -89,7 +89,7 @@ const Hero = ({ homeRef, color }) => {
                     <div
                         className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
                         style={{
-                            backgroundImage: `url('https://source.unsplash.com/MP0IUfwrn0A')`,
+                            backgroundImage: `url('/toby-1.jpeg')`,
                         }}
                     ></div>
 
@@ -221,7 +221,7 @@ const Hero = ({ homeRef, color }) => {
 
             <div className="w-full lg:w-2/5">
                 <img
-                    src="https://source.unsplash.com/MP0IUfwrn0A"
+                    src="/toby.jpeg"
                     className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
                 />
             </div>
