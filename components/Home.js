@@ -31,9 +31,6 @@ import {
 import Link from "next/link";
 import { BsFilePdf } from "react-icons/bs";
 
-const myLoader = ({ src, width, quality }) => {
-    return `https://www.spellingcheck.info/wp-content/themes/atahualpa/images/checker/${src}`;
-};
 const solutions = [
     {
         name: "Insights",
@@ -221,8 +218,8 @@ const Hero = ({ homeRef, color }) => {
 
             <div className="w-full lg:w-2/5">
                 <img
-                    src="/toby.jpeg"
-                    className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+                    src="/tobi-4.jpeg"
+                    className="rounded-none lg:rounded-lg shadow-2xl hidden h-[500px] lg:block"
                 />
             </div>
         </div>
